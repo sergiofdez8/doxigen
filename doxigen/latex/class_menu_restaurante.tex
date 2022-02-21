@@ -1,0 +1,138 @@
+\section{Referencia de la Clase MenuRestaurante}
+\label{class_menu_restaurante}\index{MenuRestaurante@{MenuRestaurante}}
+\subsection*{Métodos públicos estáticos}
+\begin{CompactItemize}
+\item 
+static void {\bf Menu} ()  throws ParseException, ClassNotFoundException 
+\item 
+static void {\bf nuevaReserva} ({\bf Restaurante} restaurant)  throws ParseException 
+\item 
+static boolean {\bf comprobacionApertura} (LocalDateTime fechaHora, {\bf Restaurante} restaurant)
+\item 
+static int {\bf mesasDisponiblesHora} ({\bf Restaurante} restaurant, LocalDateTime fechaReservas)
+\item 
+static int {\bf mesasNecesariasReservas} ({\bf Restaurante} restaurant, int nComensales)
+\item 
+static void {\bf subMenu} ()
+\item 
+static {\bf Reserva} {\bf buscarReserva} ({\bf Restaurante} restaurant)
+\item 
+static {\bf Reserva} {\bf comprobarReserva} ({\bf Restaurante} restaurant, String nombre, LocalDateTime fechaHoraReserva)
+\item 
+static void {\bf subMenuModificar} ({\bf Reserva} reserv)
+\item 
+static void {\bf modificarNombre} ({\bf Reserva} reserv)
+\item 
+static void {\bf modificarFechaHoraReserva} ({\bf Reserva} reserv)
+\item 
+static void {\bf modificarNComensales} ({\bf Reserva} reserv)
+\item 
+static void {\bf borrarReserva} ({\bf Reserva} restaurant)
+\item 
+static void {\bf FicheroReservas} ({\bf Restaurante} restaurant)
+\item 
+static void {\bf ListadoCarga} ({\bf Restaurante} restaurant)  throws ClassNotFoundException 
+\end{CompactItemize}
+\subsection*{Atributos Estáticos del Paquete}
+\begin{CompactItemize}
+\item 
+static Scanner {\bf teclado} = new Scanner(System.in)
+\item 
+static {\bf Restaurante} {\bf restaurante} = new {\bf Restaurante}()
+\end{CompactItemize}
+
+
+\subsection{Documentación de las funciones miembro}
+\index{MenuRestaurante@{MenuRestaurante}!borrarReserva@{borrarReserva}}
+\index{borrarReserva@{borrarReserva}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{borrarReserva}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.borrarReserva ({\bf Reserva} {\em restaurant})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_c2b91c1cbcdd25d63a33f285bd39a980}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!buscarReserva@{buscarReserva}}
+\index{buscarReserva@{buscarReserva}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{buscarReserva}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Reserva} MenuRestaurante.buscarReserva ({\bf Restaurante} {\em restaurant})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_4e9ba7f79c9040afdc760a919e191eb8}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!comprobacionApertura@{comprobacionApertura}}
+\index{comprobacionApertura@{comprobacionApertura}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{comprobacionApertura}]{\setlength{\rightskip}{0pt plus 5cm}static boolean MenuRestaurante.comprobacionApertura (LocalDateTime {\em fechaHora}, \/  {\bf Restaurante} {\em restaurant})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_680d886677dc5c6d5a6091a9cfc7f0b7}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!comprobarReserva@{comprobarReserva}}
+\index{comprobarReserva@{comprobarReserva}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{comprobarReserva}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Reserva} MenuRestaurante.comprobarReserva ({\bf Restaurante} {\em restaurant}, \/  String {\em nombre}, \/  LocalDateTime {\em fechaHoraReserva})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_932109c8b2c7e37dedacc504feeea538}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!FicheroReservas@{FicheroReservas}}
+\index{FicheroReservas@{FicheroReservas}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{FicheroReservas}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.FicheroReservas ({\bf Restaurante} {\em restaurant})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_5aa3f042145c0a4c1a23044c3e14b515}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!ListadoCarga@{ListadoCarga}}
+\index{ListadoCarga@{ListadoCarga}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{ListadoCarga}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.ListadoCarga ({\bf Restaurante} {\em restaurant})  throws ClassNotFoundException \hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_97349b71c85973e0621da607d9eaa2e1}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!Menu@{Menu}}
+\index{Menu@{Menu}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{Menu}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.Menu ()  throws ParseException, ClassNotFoundException \hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_b79deaf5e783bbb91b58f3d62dcf2942}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!mesasDisponiblesHora@{mesasDisponiblesHora}}
+\index{mesasDisponiblesHora@{mesasDisponiblesHora}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{mesasDisponiblesHora}]{\setlength{\rightskip}{0pt plus 5cm}static int MenuRestaurante.mesasDisponiblesHora ({\bf Restaurante} {\em restaurant}, \/  LocalDateTime {\em fechaReservas})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_f9751c4e84b097dea011938687dcdc2c}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!mesasNecesariasReservas@{mesasNecesariasReservas}}
+\index{mesasNecesariasReservas@{mesasNecesariasReservas}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{mesasNecesariasReservas}]{\setlength{\rightskip}{0pt plus 5cm}static int MenuRestaurante.mesasNecesariasReservas ({\bf Restaurante} {\em restaurant}, \/  int {\em nComensales})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_709254c488527b7b89c799cd0ad437b2}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!modificarFechaHoraReserva@{modificarFechaHoraReserva}}
+\index{modificarFechaHoraReserva@{modificarFechaHoraReserva}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{modificarFechaHoraReserva}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.modificarFechaHoraReserva ({\bf Reserva} {\em reserv})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_56880909685f730ad85d785cfc8711ce}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!modificarNComensales@{modificarNComensales}}
+\index{modificarNComensales@{modificarNComensales}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{modificarNComensales}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.modificarNComensales ({\bf Reserva} {\em reserv})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_0316375ab0717b89755d9d394bfbe7bc}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!modificarNombre@{modificarNombre}}
+\index{modificarNombre@{modificarNombre}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{modificarNombre}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.modificarNombre ({\bf Reserva} {\em reserv})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_8e6a62e4170607715abe43e63d87c392}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!nuevaReserva@{nuevaReserva}}
+\index{nuevaReserva@{nuevaReserva}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{nuevaReserva}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.nuevaReserva ({\bf Restaurante} {\em restaurant})  throws ParseException \hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_653b26f6e6bf72e2137a17bf5792e1d4}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!subMenu@{subMenu}}
+\index{subMenu@{subMenu}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{subMenu}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.subMenu ()\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_d27887dc03956e01fc55cacfc9f9cbc9}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!subMenuModificar@{subMenuModificar}}
+\index{subMenuModificar@{subMenuModificar}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{subMenuModificar}]{\setlength{\rightskip}{0pt plus 5cm}static void MenuRestaurante.subMenuModificar ({\bf Reserva} {\em reserv})\hspace{0.3cm}{\tt  [static]}}\label{class_menu_restaurante_d6b929a0ca3a24b3575a44678075aebf}
+
+
+
+
+\subsection{Documentación de los datos miembro}
+\index{MenuRestaurante@{MenuRestaurante}!restaurante@{restaurante}}
+\index{restaurante@{restaurante}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{restaurante}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Restaurante} {\bf MenuRestaurante.restaurante} = new {\bf Restaurante}()\hspace{0.3cm}{\tt  [static, package]}}\label{class_menu_restaurante_b6c9ce240ddfcdc67bd0060d30a66e0b}
+
+
+\index{MenuRestaurante@{MenuRestaurante}!teclado@{teclado}}
+\index{teclado@{teclado}!MenuRestaurante@{MenuRestaurante}}
+\subsubsection[{teclado}]{\setlength{\rightskip}{0pt plus 5cm}Scanner {\bf MenuRestaurante.teclado} = new Scanner(System.in)\hspace{0.3cm}{\tt  [static, package]}}\label{class_menu_restaurante_c408f0f11dacfacc580a28486a6fd498}
+
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero:\begin{CompactItemize}
+\item 
+C:/Users/SERGIO FERNANDEZ/Desktop/doxigen/{\bf MenuRestaurante.java}\end{CompactItemize}
